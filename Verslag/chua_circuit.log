@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.9.21)  25 MAR 2013 17:23
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.9.21)  25 MAR 2013 17:34
 entering extended mode
 **\input chua_circuit.tex
 (c:\Users\erispre\Documents\GitHub\ipds\Verslag\chua_circuit.tex
@@ -169,13 +169,13 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 10.
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
 (c:\Users\erispre\Documents\GitHub\ipds\Verslag\intro.tex
-<chuacircuit.png, id=1, 244.915pt x 166.6225pt>
+<chuacircuit.png, id=1, 238.8925pt x 170.6375pt>
 File: chuacircuit.png Graphic file (type png)
  <use chuacircuit.png>
 Package pdftex.def Info: chuacircuit.png used on input line 26.
-(pdftex.def)             Requested size: 244.91438pt x 166.62209pt.
+(pdftex.def)             Requested size: 238.8919pt x 170.63707pt.
 
-Overfull \hbox (15.41438pt too wide) in paragraph at lines 26--27
+Overfull \hbox (9.3919pt too wide) in paragraph at lines 26--27
  [][] 
  []
 
@@ -186,10 +186,8 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Underfull \vbox (badness 2582) has occurred while \output is active []
 
 )
-(c:\Users\erispre\Documents\GitHub\ipds\Verslag\chua_circuit.bbl
-Underfull \vbox (badness 5119) has occurred while \output is active []
-
- [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+(c:\Users\erispre\Documents\GitHub\ipds\Verslag\chua_circuit.bbl [1{C:/ProgramD
+ata/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
  <c:/Users/erispre/Documents/GitHub/ipds/Verslag/chuacircuit.png>]) [2
@@ -199,7 +197,7 @@ Underfull \vbox (badness 5119) has occurred while \output is active []
 Here is how much of TeX's memory you used:
  2105 strings out of 494045
  26359 string characters out of 3145963
- 81900 words of memory out of 3000000
+ 82900 words of memory out of 3000000
  5391 multiletter control sequences out of 15000+200000
  11234 words of font info for 44 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
@@ -217,7 +215,7 @@ TeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files (x86)/MiKTeX
 ts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/cm/cmti10.pfb>
-Output written on chua_circuit.pdf (2 pages, 132064 bytes).
+Output written on chua_circuit.pdf (2 pages, 132507 bytes).
 PDF statistics:
  59 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

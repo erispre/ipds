@@ -488,5 +488,7 @@ download a copy.-->
 		<JUNCTION pos='38.00000,16.00000'/>
 		<WIRE a='38.00000,16.00000' b='48.00000,16.00000'/>
 		<WIRE a='48.00000,16.00000' b='48.00000,20.00000'/>
+		<POWER pos='10.00000,38.00000' which='4' direction='1'></POWER>
+		<JUNCTION pos='10.00000,38.00000'/>
 	</TinyCAD>
 </TinyCADSheets>

@@ -1,0 +1,27 @@
+@Article{Matsumoto85,
+  author = 	 {Matsumoto, Takashi and Chua, Leon O. and Komuro, Motomasa},
+  title = 	 {The Double Scroll},
+  journal = 	 {IEEE Transactions on Circuits and Systems},
+  year = 	 {1985},
+  OPTkey = 	 {},
+  OPTvolume = 	 {32},
+  OPTnumber = 	 {8},
+  OPTpages = 	 {797-818},
+  OPTmonth = 	 {August},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+@Article{Chua86,
+  author = 	 {Chua, Leon O. and Komuro, Motomasa and Matsumoto, Takashi},
+  title = 	 {The Double Scroll Family},
+  journal = 	 {IEEE Transactions on Circuits and Systems},
+  year = 	 {1986},
+  OPTkey = 	 {},
+  OPTvolume = 	 {33},
+  OPTnumber = 	 {11},
+  OPTpages = 	 {1072-1118},
+  OPTmonth = 	 {November},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+

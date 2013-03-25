@@ -1,0 +1,28 @@
+\begin{thebibliography}{1}
+
+\bibitem{Chua86}
+L.~O. Chua, M.~Komuro, and T.~Matsumoto.
+\newblock The double scroll family.
+\newblock {\em IEEE Transactions on Circuits and Systems}, 33(11):1072--1118,
+  November 1986.
+
+\bibitem{hirsch12}
+M.~W. Hirsh, S.~Smale, and R.~L. Devaney.
+\newblock {\em Differential Equations, Dynamical Systems, and an Introduction
+  to Chaos}.
+\newblock Academic Press, 3rd edition, 2012.
+\newblock ISBN: 9780123820112.
+
+\bibitem{Matsumoto84}
+T.~Matsumoto.
+\newblock A chaotic attractor from chua's circuit.
+\newblock {\em IEEE Transactions on Circuits and Systems}, 31(12):1055--1058,
+  December 1984.
+
+\bibitem{Matsumoto85}
+T.~Matsumoto, L.~O. Chua, and M.~Komuro.
+\newblock The double scroll.
+\newblock {\em IEEE Transactions on Circuits and Systems}, 32(8):797--818,
+  August 1985.
+
+\end{thebibliography}

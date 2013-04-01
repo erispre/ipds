@@ -1,0 +1,1188 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=prv_chua_circuit 2013.4.1)  1 APR 2013 21:56
+entering extended mode
+**&prv_chua_circuit _region_.tex
+(c:\Users\erispre\Documents\GitHub\ipds\Verslag\_region_.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
+vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
+an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
+romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
+sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
+senglishmax, welsh, loaded.
+CUSTOMISED FORMAT. Preloaded files:
+        .
+ article.cls    2007/10/19 v1.4h Standard LaTeX document class
+  size10.clo    2007/10/19 v1.4h Standard LaTeX file (size option)
+ amsmath.sty    2000/07/18 v2.13 AMS math features
+ amstext.sty    2000/06/29 v2.01
+  amsgen.sty    1999/11/30 v2.0
+  amsbsy.sty    1999/11/29 v1.2d
+  amsopn.sty    1999/12/14 v2.01 operator names
+ amssymb.sty    2009/06/22 v3.00
+amsfonts.sty    2009/06/22 v3.00 Basic AMSFonts support
+  amsthm.sty    2004/08/06 v2.20
+graphicx.sty    1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+  keyval.sty    1999/03/16 v1.13 key=value parser (DPC)
+graphics.sty    2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+    trig.sty    1999/03/16 v1.09 sin cos tan (DPC)
+graphics.cfg    2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+  pdftex.def    2011/05/27 v0.06d Graphics/color for pdfTeX
+infwarerr.sty    2010/04/08 v1.3 Providing info/warning/error messages (HO)
+ ltxcmds.sty    2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+    umsa.fd    2009/06/22 v3.00 AMS symbols A
+    umsb.fd    2009/06/22 v3.00 AMS symbols B
+        .
+No file _region_.aux.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\preview\preview.sty"
+Package: preview 2010/02/14 11.86 (AUCTeX/preview-latex)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\preview\prtightpage.def"
+\PreviewBorder=\dimen114
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\preview\prauctex.def"
+No auxiliary output files.
+
+
+\hbadness=\count100
+\hfuzz=\dimen115
+("c:/Program Files (x86)/emacs-24.2/site-lisp/auctex/latex\prauctex.cfg"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\preview\prfootnotes.def")
+\pr@snippet=\count101
+\pr@box=\box28
+\pr@output=\toks26
+
+Preview: Fontsize 10pt
+Preview: PDFoutput 1
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count102
+\scratchdimen=\dimen116
+\scratchbox=\box29
+\nofMPsegments=\count103
+\nofMParguments=\count104
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count105
+\MPscratchDim=\dimen117
+\MPnumerator=\count106
+\makeMPintoPDFobject=\count107
+\everyMPtoPDFconversion=\toks28
+)  !name(equilibria.tex) !offset(-11) 
+! Preview: Snippet 1 started.
+<-><->
+      
+l.12 \section
+             {Investigating the equilibria}
+Not a real error.
+
+Preview: Tightpage -32891 -32891 32891 32891
+! Preview: Snippet 1 ended.(655359+183500x15040512).
+<-><->
+      
+l.12 \section{Investigating the equilibria}
+                                           
+Not a real error.
+
+[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+]
+! Preview: Snippet 2 started.
+<-><->
+      
+l.15 will take the parameters $
+                               a, b, \rho,\sigma > 0$.  This is because the
+Not a real error.
+
+! Preview: Snippet 2 ended.(455111+127431x3439793).
+<-><->
+      
+l.15 ...ake the parameters $a, b, \rho,\sigma > 0$
+                                                  .  This is because the
+Not a real error.
+
+[2]
+
+LaTeX Warning: Reference `eq:system' on page 1 undefined on input line 19.
+
+! Preview: Snippet 3 started.
+<-><->
+      
+l.20 from the $
+               z'$ part, noting that $b \neq 0$, that $y = 0$.
+Not a real error.
+
+! Preview: Snippet 3 ended.(492688+0x517463).
+<-><->
+      
+l.20 from the $z'$
+                   part, noting that $b \neq 0$, that $y = 0$.
+Not a real error.
+
+[3]
+! Preview: Snippet 4 started.
+<-><->
+      
+l.20 from the $z'$ part, noting that $
+                                      b \neq 0$, that $y = 0$.
+Not a real error.
+
+! Preview: Snippet 4 ended.(455111+127430x1482745).
+<-><->
+      
+l.20 from the $z'$ part, noting that $b \neq 0$
+                                               , that $y = 0$.
+Not a real error.
+
+[4]
+! Preview: Snippet 5 started.
+<-><->
+      
+l.20 ... $z'$ part, noting that $b \neq 0$, that $
+                                                  y = 0$.
+Not a real error.
+
+! Preview: Snippet 5 ended.(422343+127431x1546311).
+<-><->
+      
+l.20 ...part, noting that $b \neq 0$, that $y = 0$
+                                                  .
+Not a real error.
+
+[5]
+! Preview: Snippet 6 started.
+<-><->
+      
+l.21 ..., the second equation tells us then that $
+                                                  z = -x$.  And
+Not a real error.
+
+! Preview: Snippet 6 ended.(382293+54613x2091686).
+<-><->
+      
+l.21 ...econd equation tells us then that $z = -x$
+                                                  .  And
+Not a real error.
+
+[6]
+! Preview: Snippet 7 started.
+<-><->
+      
+l.23 $
+      \phi(x)$.  We will factor this into:
+Not a real error.
+
+! Preview: Snippet 7 ended.(491520+163840x1274768).
+<-><->
+      
+l.23 $\phi(x)$
+              .  We will factor this into:
+Not a real error.
+
+[7]
+! Preview: Snippet 8 started.
+<-><->
+      
+l.24 \begin{equation}
+                     
+Not a real error.
+
+! Preview: Snippet 8 ended.(730073+0x15040512).
+<-><->
+      
+l.27 \end{equation}
+                   
+Not a real error.
+
+[8
+
+]
+! Preview: Snippet 9 started.
+<-><->
+      
+l.28 from which we deduce that $
+                                x = 0$ or $x = \pm
+Not a real error.
+
+! Preview: Snippet 9 ended.(422343+0x1576043).
+<-><->
+      
+l.28 from which we deduce that $x = 0$
+                                       or $x = \pm
+Not a real error.
+
+[9]
+! Preview: Snippet 10 started.
+<-><->
+      
+l.28 from which we deduce that $x = 0$ or $
+                                           x = \pm
+Not a real error.
+
+! Preview: Snippet 10 ended.(715711+490161x2890885).
+<-><->
+      
+l.29 \sqrt{\frac{\sigma}{\rho}}$
+                                .
+Not a real error.
+
+[10]
+! Preview: Snippet 11 started.
+<-><->
+      
+l.32 \begin{gather}
+                   
+Not a real error.
+
+! Preview: Snippet 11 ended.(2647668+0x15040512).
+<-><->
+      
+l.36 \end{gather}
+                 
+Not a real error.
+
+[11]
+! Preview: Snippet 12 started.
+<-><->
+      
+l.37 ...equilibrium in the origin and one in the $
+                                                  xz$-plane, symmetric in
+Not a real error.
+
+! Preview: Snippet 12 ended.(282168+0x708154).
+<-><->
+      
+l.37 ...ilibrium in the origin and one in the $xz$
+                                                  -plane, symmetric in
+Not a real error.
+
+[12]
+! Preview: Snippet 13 started.
+<-><->
+      
+l.38 ...Note that the location of the equilibria $
+                                                  X_\pm$ is
+Not a real error.
+
+! Preview: Snippet 13 ended.(447828+152917x985317).
+<-><->
+      
+l.38 ...hat the location of the equilibria $X_\pm$
+                                                   is
+Not a real error.
+
+[13]
+! Preview: Snippet 14 started.
+<-><->
+      
+l.39 completely determined by the parameters in $
+                                                 \phi$, and that these fail
+Not a real error.
+
+! Preview: Snippet 14 ended.(455111+127431x390486).
+<-><->
+      
+l.39 ...ely determined by the parameters in $\phi$
+                                                  , and that these fail
+Not a real error.
+
+[14]
+! Preview: Snippet 15 started.
+<-><->
+      
+l.40 to exist if $
+                  \rho$ and $sigma$ do not have the same sign.
+Not a real error.
+
+! Preview: Snippet 15 ended.(282168+127431x338831).
+<-><->
+      
+l.40 to exist if $\rho$
+                        and $sigma$ do not have the same sign.
+Not a real error.
+
+[15]
+! Preview: Snippet 16 started.
+<-><->
+      
+l.40 to exist if $\rho$ and $
+                             sigma$ do not have the same sign.
+Not a real error.
+
+! Preview: Snippet 16 ended.(432226+127431x1790910).
+<-><->
+      
+l.40 to exist if $\rho$ and $sigma$
+                                    do not have the same sign.
+Not a real error.
+
+[16]
+! Preview: Snippet 17 started.
+<-><->
+      
+l.42 \subsection
+                {Classification of the origin}
+Not a real error.
+
+! Preview: Snippet 17 ended.(546132+152916x15040512).
+<-><->
+      
+l.42 \subsection{Classification of the origin}
+                                              
+Not a real error.
+
+[17
+
+]
+! Preview: Snippet 18 started.
+<-><->
+      
+l.45 these points on this.  For $
+                                 X_0$ (the origin), we have the following
+Not a real error.
+
+! Preview: Snippet 18 ended.(447828+98303x836951).
+<-><->
+      
+l.45 these points on this.  For $X_0$
+                                      (the origin), we have the following
+Not a real error.
+
+[18]
+! Preview: Snippet 19 started.
+<-><->
+      
+l.47 \begin{gather}
+                   
+Not a real error.
+
+! Preview: Snippet 19 ended.(3407894+0x15040512).
+<-><->
+      
+l.62 \end{gather}
+                 
+Not a real error.
+
+[19
+
+]
+! Preview: Snippet 20 started.
+<-><->
+      
+l.63 Now, to study the eigenvalues of $
+                                       A_0$, we note that $tr(A_0) = a \sigma
+Not a real error.
+
+! Preview: Snippet 20 ended.(447828+98303x785524).
+<-><->
+      
+l.63 Now, to study the eigenvalues of $A_0$
+                                           , we note that $tr(A_0) = a \sigma
+Not a real error.
+
+[20]
+! Preview: Snippet 21 started.
+<-><->
+      
+l.63 ...y the eigenvalues of $A_0$, we note that $
+                                                  tr(A_0) = a \sigma
+Not a real error.
+
+! Preview: Snippet 21 ended.(491520+163840x4592671).
+<-><->
+      
+l.64 - 1$
+          and $det(A_0) = a b \sigma > 0$.  For any real $n \times n$ matrix,
+Not a real error.
+
+[21]
+! Preview: Snippet 22 started.
+<-><->
+      
+l.64 - 1$ and $
+               det(A_0) = a b \sigma > 0$.  For any real $n \times n$ matrix,
+Not a real error.
+
+! Preview: Snippet 22 ended.(491520+163840x5279128).
+<-><->
+      
+l.64 - 1$ and $det(A_0) = a b \sigma > 0$
+                                         .  For any real $n \times n$ matrix,
+Not a real error.
+
+[22]
+! Preview: Snippet 23 started.
+<-><->
+      
+l.64 ...et(A_0) = a b \sigma > 0$.  For any real $
+                                                  n \times n$ matrix,
+Not a real error.
+
+! Preview: Snippet 23 ended.(382293+54613x1587730).
+<-><->
+      
+l.64 ... b \sigma > 0$.  For any real $n \times n$
+                                                   matrix,
+Not a real error.
+
+[23]
+! Preview: Snippet 24 started.
+<-><->
+      
+l.67 multiplicities.  For the eigenvalues of $
+                                              A_0$ we have three cases:
+Not a real error.
+
+! Preview: Snippet 24 ended.(447828+98303x785524).
+<-><->
+      
+l.67 multiplicities.  For the eigenvalues of $A_0$
+                                                   we have three cases:
+Not a real error.
+
+[24]
+! Preview: Snippet 25 started.
+<-><->
+      
+l.76 \paragraph
+               {Zero eigenvalues}
+Not a real error.
+
+! Preview: Snippet 25 ended.(455111+127431x5412244).
+<-><->
+      
+l.76 \paragraph{Zero eigenvalues}
+                                 
+Not a real error.
+
+[25
+
+]
+! Preview: Snippet 26 started.
+<-><->
+      
+l.78 have $
+           0 = det(A_0) = ab\sigma > 0$, which is a contradiction.
+Not a real error.
+
+! Preview: Snippet 26 ended.(491520+163840x6480615).
+<-><->
+      
+l.78 have $0 = det(A_0) = ab\sigma > 0$
+                                       , which is a contradiction.
+Not a real error.
+
+[26]
+! Preview: Snippet 27 started.
+<-><->
+      
+l.81 \paragraph
+               {Real and distinct eigenvalues}
+Not a real error.
+
+! Preview: Snippet 27 ended.(455111+127431x9586132).
+<-><->
+      
+l.81 \paragraph{Real and distinct eigenvalues}
+                                              
+Not a real error.
+
+[27
+
+]
+! Preview: Snippet 28 started.
+<-><->
+      
+l.82 Let $
+          \lambda_i \in \mathbb{R} (i=1,2,3)$ be the eigenvalues of $A_0$.
+Not a real error.
+
+! Preview: Snippet 28 ended.(491520+163840x5049680).
+<-><->
+      
+l.82 Let $\lambda_i \in \mathbb{R} (i=1,2,3)$
+                                              be the eigenvalues of $A_0$.
+Not a real error.
+
+[28]
+! Preview: Snippet 29 started.
+<-><->
+      
+l.82 ...thbb{R} (i=1,2,3)$ be the eigenvalues of $
+                                                  A_0$.
+Not a real error.
+
+! Preview: Snippet 29 ended.(447828+98303x785524).
+<-><->
+      
+l.82 ...{R} (i=1,2,3)$ be the eigenvalues of $A_0$
+                                                  .
+Not a real error.
+
+[29]
+! Preview: Snippet 30 started.
+<-><->
+      
+l.83 Then we have $
+                   0 < ab\sigma = det(A_0) = \lambda_1\lambda_2\lambda_3$.
+Not a real error.
+
+! Preview: Snippet 30 ended.(491520+163840x8181828).
+<-><->
+      
+l.83 ... = det(A_0) = \lambda_1\lambda_2\lambda_3$
+                                                  .
+Not a real error.
+
+[30]
+! Preview: Snippet 31 started.
+<-><->
+      
+l.84 If without generality we assume that $
+                                           \lambda_1 < \lambda_2 <
+Not a real error.
+
+! Preview: Snippet 31 ended.(455111+98303x3776506).
+<-><->
+      
+l.85 \lambda_3$
+               , we can again distinguish two cases.  If $\lambda_1 < 0$,
+Not a real error.
+
+[31]
+! Preview: Snippet 32 started.
+<-><->
+      
+l.85 ... we can again distinguish two cases.  If $
+                                                  \lambda_1 < 0$,
+Not a real error.
+
+! Preview: Snippet 32 ended.(455111+98303x1877785).
+<-><->
+      
+l.85 ...distinguish two cases.  If $\lambda_1 < 0$
+                                                  ,
+Not a real error.
+
+[32]
+! Preview: Snippet 33 started.
+<-><->
+      
+l.86 we must have $
+                   \lambda_2 < 0$ and $\lambda_3 > 0$.  This corresponds to
+Not a real error.
+
+! Preview: Snippet 33 ended.(455111+98303x1877785).
+<-><->
+      
+l.86 we must have $\lambda_2 < 0$
+                                  and $\lambda_3 > 0$.  This corresponds to
+Not a real error.
+
+[33]
+! Preview: Snippet 34 started.
+<-><->
+      
+l.86 we must have $\lambda_2 < 0$ and $
+                                       \lambda_3 > 0$.  This corresponds to
+Not a real error.
+
+! Preview: Snippet 34 ended.(455111+98303x1877785).
+<-><->
+      
+l.86 ...t have $\lambda_2 < 0$ and $\lambda_3 > 0$
+                                                  .  This corresponds to
+Not a real error.
+
+[34]
+! Preview: Snippet 35 started.
+<-><->
+      
+l.89 If $
+         \lambda_1 > 0$, we automatically have $\lambda_i > 0 (i=1,2,3)$.
+Not a real error.
+
+! Preview: Snippet 35 ended.(455111+98303x1877785).
+<-><->
+      
+l.89 If $\lambda_1 > 0$
+                       , we automatically have $\lambda_i > 0 (i=1,2,3)$.
+Not a real error.
+
+[35]
+! Preview: Snippet 36 started.
+<-><->
+      
+l.89 If $\lambda_1 > 0$, we automatically have $
+                                                \lambda_i > 0 (i=1,2,3)$.
+Not a real error.
+
+! Preview: Snippet 36 ended.(491520+163840x4976863).
+<-><->
+      
+l.89 ...tomatically have $\lambda_i > 0 (i=1,2,3)$
+                                                  .
+Not a real error.
+
+[36]
+! Preview: Snippet 37 started.
+<-><->
+      
+l.92 ...estigate the influence of the parameters $
+                                                  a,b,\sigma$ on the
+Not a real error.
+
+! Preview: Snippet 37 ended.(455111+127431x1608206).
+<-><->
+      
+l.92 ...e influence of the parameters $a,b,\sigma$
+                                                   on the
+Not a real error.
+
+[37]
+! Preview: Snippet 38 started.
+<-><->
+      
+l.93 eigenvalues.  If $
+                       0 < a\sigma \leq 1$, we see that:
+Not a real error.
+
+! Preview: Snippet 38 ended.(422343+89110x3147384).
+<-><->
+      
+l.93 eigenvalues.  If $0 < a\sigma \leq 1$
+                                          , we see that:
+Not a real error.
+
+[38]
+! Preview: Snippet 39 started.
+<-><->
+      
+l.94 \begin{gather*}
+                    
+Not a real error.
+
+! Preview: Snippet 39 ended.(2019151+0x15040512).
+<-><->
+      
+l.96 \end{gather*}
+                  
+Not a real error.
+
+[39]
+! Preview: Snippet 40 started.
+<-><->
+      
+l.98 \begin{gather*}
+                    
+Not a real error.
+
+! Preview: Snippet 40 ended.(786432+0x15040512).
+<-><->
+      
+l.100 \end{gather*}
+                   
+Not a real error.
+
+[40]
+! Preview: Snippet 41 started.
+<-><->
+      
+l.101 So, if $
+              \lambda_1 > 0$, we get $0 < \lambda_3 \leq 0$, which can't be
+Not a real error.
+
+! Preview: Snippet 41 ended.(455111+98303x1877785).
+<-><->
+      
+l.101 So, if $\lambda_1 > 0$
+                            , we get $0 < \lambda_3 \leq 0$, which can't be
+Not a real error.
+
+[41]
+! Preview: Snippet 42 started.
+<-><->
+      
+l.101 So, if $\lambda_1 > 0$, we get $
+                                      0 < \lambda_3 \leq 0$, which can't be
+Not a real error.
+
+! Preview: Snippet 42 ended.(455111+98303x3079272).
+<-><->
+      
+l.101 ...bda_1 > 0$, we get $0 < \lambda_3 \leq 0$
+                                                  , which can't be
+Not a real error.
+
+[42]
+! Preview: Snippet 43 started.
+<-><->
+      
+l.103 real eigenvalues and $
+                            0 < a\sigma \leq 1$) that $\lambda_1,\lambda_2 <
+Not a real error.
+
+! Preview: Snippet 43 ended.(422343+89110x3147384).
+<-><->
+      
+l.103 real eigenvalues and $0 < a\sigma \leq 1$
+                                               ) that $\lambda_1,\lambda_2 <
+Not a real error.
+
+[43]
+! Preview: Snippet 44 started.
+<-><->
+      
+l.103 ...envalues and $0 < a\sigma \leq 1$) that $
+                                                  \lambda_1,\lambda_2 <
+Not a real error.
+
+! Preview: Snippet 44 ended.(455111+127431x2845352).
+<-><->
+      
+l.104 0$
+         and $\lambda_3 \leq |\lambda_1 + \lambda_2|$.  So, then the origin
+Not a real error.
+
+[44]
+! Preview: Snippet 45 started.
+<-><->
+      
+l.104 0$ and $
+              \lambda_3 \leq |\lambda_1 + \lambda_2|$.  So, then the origin
+Not a real error.
+
+! Preview: Snippet 45 ended.(491520+163840x4067780).
+<-><->
+      
+l.104 ... $\lambda_3 \leq |\lambda_1 + \lambda_2|$
+                                                  .  So, then the origin
+Not a real error.
+
+[45]
+! Preview: Snippet 46 started.
+<-><->
+      
+l.107 Now to study the subcase of $
+                                   a\sigma > 1$, we observe that if
+Not a real error.
+
+! Preview: Snippet 46 ended.(422343+25623x1945897).
+<-><->
+      
+l.107 Now to study the subcase of $a\sigma > 1$
+                                               , we observe that if
+Not a real error.
+
+[46]
+! Preview: Snippet 47 started.
+<-><->
+      
+l.108 $
+       \lambda_1,\lambda_2 < 0$, we get $\lambda_3 > - (\lambda_1 +
+Not a real error.
+
+! Preview: Snippet 47 ended.(455111+127431x2845352).
+<-><->
+      
+l.108 $\lambda_1,\lambda_2 < 0$
+                               , we get $\lambda_3 > - (\lambda_1 +
+Not a real error.
+
+[47]
+! Preview: Snippet 48 started.
+<-><->
+      
+l.108 $\lambda_1,\lambda_2 < 0$, we get $
+                                         \lambda_3 > - (\lambda_1 +
+Not a real error.
+
+! Preview: Snippet 48 ended.(491520+163840x9316111).
+<-><->
+      
+l.109 \lambda_2) = |\lambda_1 + \lambda_2| > 0$
+                                               .  And if
+Not a real error.
+
+[48]
+! Preview: Snippet 49 started.
+<-><->
+      
+l.110 $
+       \lambda_1,\lambda_2>0$, we get $\lambda_3 > -(\lambda_1 +
+Not a real error.
+
+! Preview: Snippet 49 ended.(455111+127431x2845352).
+<-><->
+      
+l.110 $\lambda_1,\lambda_2>0$
+                             , we get $\lambda_3 > -(\lambda_1 +
+Not a real error.
+
+[49]
+! Preview: Snippet 50 started.
+<-><->
+      
+l.110 $\lambda_1,\lambda_2>0$, we get $
+                                       \lambda_3 > -(\lambda_1 +
+Not a real error.
+
+! Preview: Snippet 50 ended.(491520+163840x4723142).
+<-><->
+      
+l.111 \lambda_2)$
+                 , which is perfectly possible, since we know that
+Not a real error.
+
+[50]
+! Preview: Snippet 51 started.
+<-><->
+      
+l.112 $
+       \lambda_3 > 0$.  Therefore, on these criteria, both cases (source and
+Not a real error.
+
+! Preview: Snippet 51 ended.(455111+98303x1877785).
+<-><->
+      
+l.112 $\lambda_3 > 0$
+                     .  Therefore, on these criteria, both cases (source and
+Not a real error.
+
+[51]
+! Preview: Snippet 52 started.
+<-><->
+      
+l.115 \paragraph
+                {One real, two non-real eigenvalues}
+Not a real error.
+
+! Preview: Snippet 52 ended.(455111+127431x11313182).
+<-><->
+      
+l.115 ...graph{One real, two non-real eigenvalues}
+                                                  
+Not a real error.
+
+[52
+
+]
+! Preview: Snippet 53 started.
+<-><->
+      
+l.116 Again let $
+                 \lambda_1\in\mathbb{R}, \lambda_2,\lambda_3\in\mathbb{C}$
+Not a real error.
+
+! Preview: Snippet 53 ended.(455111+127431x5160040).
+<-><->
+      
+l.116 ...hbb{R}, \lambda_2,\lambda_3\in\mathbb{C}$
+                                                  
+Not a real error.
+
+[53]
+! Preview: Snippet 54 started.
+<-><->
+      
+l.117 be the eigenvalues of $
+                             A_0$.  Then we immediately know that $\lambda_3
+Not a real error.
+
+! Preview: Snippet 54 ended.(447828+98303x785524).
+<-><->
+      
+l.117 be the eigenvalues of $A_0$
+                                 .  Then we immediately know that $\lambda_3
+Not a real error.
+
+[54]
+! Preview: Snippet 55 started.
+<-><->
+      
+l.117 ...f $A_0$.  Then we immediately know that $
+                                                  \lambda_3
+Not a real error.
+
+! Preview: Snippet 55 ended.(545041+98303x2226402).
+<-><->
+      
+l.118 = \bar{\lambda_2}$
+                        , the complex conjugate of $\lambda_2$.  From the
+Not a real error.
+
+[55]
+! Preview: Snippet 56 started.
+<-><->
+      
+l.118 ...r{\lambda_2}$, the complex conjugate of $
+                                                  \lambda_2$.  From the
+Not a real error.
+
+! Preview: Snippet 56 ended.(455111+98303x676298).
+<-><->
+      
+l.118 ...2}$, the complex conjugate of $\lambda_2$
+                                                  .  From the
+Not a real error.
+
+[56]
+! Preview: Snippet 57 started.
+<-><->
+      
+l.120 \begin{gather*}
+                     
+Not a real error.
+
+! Preview: Snippet 57 ended.(1785205+0x15040512).
+<-><->
+      
+l.124 \end{gather*}
+                   
+Not a real error.
+
+[57]
+! Preview: Snippet 58 started.
+<-><->
+      
+l.126 $
+       |\lambda_2|^2 > 0$. Furthermore, if $0< a\sigma \leq 1$, the real part
+Not a real error.
+
+! Preview: Snippet 58 ended.(533465+163840x2535878).
+<-><->
+      
+l.126 $|\lambda_2|^2 > 0$
+                         . Furthermore, if $0< a\sigma \leq 1$, the real part
+Not a real error.
+
+[58]
+! Preview: Snippet 59 started.
+<-><->
+      
+l.126 $|\lambda_2|^2 > 0$. Furthermore, if $
+                                            0< a\sigma \leq 1$, the real part
+Not a real error.
+
+! Preview: Snippet 59 ended.(422343+89110x3147384).
+<-><->
+      
+l.126 ...> 0$. Furthermore, if $0< a\sigma \leq 1$
+                                                  , the real part
+Not a real error.
+
+[59]
+! Preview: Snippet 60 started.
+<-><->
+      
+l.127 of $
+          \lambda_2$ and $\lambda_3$ is strictly negative.
+Not a real error.
+
+! Preview: Snippet 60 ended.(455111+98303x676298).
+<-><->
+      
+l.127 of $\lambda_2$
+                     and $\lambda_3$ is strictly negative.
+Not a real error.
+
+[60]
+! Preview: Snippet 61 started.
+<-><->
+      
+l.127 of $\lambda_2$ and $
+                          \lambda_3$ is strictly negative.
+Not a real error.
+
+! Preview: Snippet 61 ended.(455111+98303x676298).
+<-><->
+      
+l.127 of $\lambda_2$ and $\lambda_3$
+                                     is strictly negative.
+Not a real error.
+
+[61]
+! Preview: Snippet 62 started.
+<-><->
+      
+l.129 When $
+            a \sigma > 1$, the only restriction we can impose is that the
+Not a real error.
+
+! Preview: Snippet 62 ended.(422343+25623x1945897).
+<-><->
+      
+l.129 When $a \sigma > 1$
+                         , the only restriction we can impose is that the
+Not a real error.
+
+[62]
+! Preview: Snippet 63 started.
+<-><->
+      
+l.130 real part of $
+                    \lambda_2$ and $\lambda_3$ is strictly greater than
+Not a real error.
+
+! Preview: Snippet 63 ended.(455111+98303x676298).
+<-><->
+      
+l.130 real part of $\lambda_2$
+                               and $\lambda_3$ is strictly greater than
+Not a real error.
+
+[63]
+! Preview: Snippet 64 started.
+<-><->
+      
+l.130 real part of $\lambda_2$ and $
+                                    \lambda_3$ is strictly greater than
+Not a real error.
+
+! Preview: Snippet 64 ended.(455111+98303x676298).
+<-><->
+      
+l.130 real part of $\lambda_2$ and $\lambda_3$
+                                               is strictly greater than
+Not a real error.
+
+[64]
+! Preview: Snippet 65 started.
+<-><->
+      
+l.131 $
+       -\frac{\lambda_1}{2}$.
+Not a real error.
+
+! Preview: Snippet 65 ended.(587273+225995x1233630).
+<-><->
+      
+l.131 $-\frac{\lambda_1}{2}$
+                            .
+Not a real error.
+
+[65]
+! Preview: Snippet 66 started.
+<-><->
+      
+l.133 \paragraph
+                {Type of equilibrium}
+Not a real error.
+
+! Preview: Snippet 66 ended.(455111+127431x6570861).
+<-><->
+      
+l.133 \paragraph{Type of equilibrium}
+                                     
+Not a real error.
+
+[66
+
+]
+! Preview: Snippet 67 started.
+<-><->
+      
+l.135 From this we can deduce that as long as $
+                                               a \leq \frac{1}{\sigma}$, the
+Not a real error.
+
+! Preview: Snippet 67 ended.(553676+225995x1697658).
+<-><->
+      
+l.135 ...that as long as $a \leq \frac{1}{\sigma}$
+                                                  , the
+Not a real error.
+
+[67]
+! Preview: Snippet 68 started.
+<-><->
+      
+l.136 ...addle point, with a stable plane.  When $
+                                                  a$ becomes
+Not a real error.
+
+! Preview: Snippet 68 ended.(282168+0x346416).
+<-><->
+      
+l.136 ...dle point, with a stable plane.  When $a$
+                                                   becomes
+Not a real error.
+
+[68]
+! Preview: Snippet 69 started.
+<-><->
+      
+l.137 greater than $
+                    \frac{1}{\sigma}$, there is a possible bifurcation,
+Not a real error.
+
+! Preview: Snippet 69 ended.(553676+225995x477436).
+<-><->
+      
+l.137 greater than $\frac{1}{\sigma}$
+                                     , there is a possible bifurcation,
+Not a real error.
+
+[69]
+! Preview: Snippet 70 started.
+<-><->
+      
+l.140 \subsection
+                 {Classification of $X_\pm$}
+Not a real error.
+
+! Preview: Snippet 70 ended.(546132+172580x15040512).
+<-><->
+      
+l.140 \subsection{Classification of $X_\pm$}
+                                            
+Not a real error.
+
+[70
+
+]  !name(chua_circuit.tex) !offset(-132) 
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 496 strings out of 492265
+ 6865 string characters out of 3123855
+ 83808 words of memory out of 3000000
+ 5537 multiletter control sequences out of 15000+200000
+ 12382 words of font info for 48 fonts, out of 3000000 for 9000
+ 715 hyphenation exceptions out of 8191
+ 22i,16n,22p,170b,206s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/
+Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Prog
+ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program
+ Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files 
+(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86
+)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on _region_.pdf (70 pages, 154812 bytes).
+PDF statistics:
+ 279 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

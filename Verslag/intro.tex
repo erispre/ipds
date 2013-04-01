@@ -16,7 +16,7 @@ current through it.  We will, however, instead study a resistor with a
 non-linearity that is given by the function
 \begin{equation}
   \label{eq:non-linearity}
-  \phi(v) = \rho v^3 + \sigma v
+  \phi(x) = \rho x^3 - \sigma x
 \end{equation}
 as suggested in \cite[p. 379]{hirsch12}.  The study will also follow
 the ``exploration'' given in this publication and expand on it.
@@ -34,18 +34,18 @@ equations \cite[eq. (1.1)]{Matsumoto85}:
   \label{eq:dynamics}
   \left\{
     \begin{aligned}
-      C_1\frac{dv_{C_1}}{dt} &= G(v_{C_2}-v_{C_1})-\phi(v_{C_1})\\
+      C_1\frac{dv_{C_1}}{dt} &= G(v_{C_2}-v_{C_1})-f(v_{C_1})\\
       C_2\frac{dv_{C_2}}{dt} &= G(v_{C_1}-v_{C_2}) + i_L\\
       L \frac{di_L}{dt} &= -v_{C_2}
     \end{aligned}
   \right.
 \end{equation}
-This set of equations can be rescaled to transform it into:
+This set of equations can be rescaled to transform it into \cite[eq. (1.1)]{Chua86}:
 \begin{equation}
   \label{eq:rescaling}
   \left\{
     \begin{aligned}
-      \frac{dx}{d\tau} &= a(y-x-\phi(x))\\
+      \frac{dx}{d\tau} &= a(y-\phi(x))\\
       \frac{dy}{d\tau} &= x - y + z\\
       \frac{dz}{d\tau} &= -b y
     \end{aligned}
@@ -55,19 +55,17 @@ We will now, in accordance with \cite{hirsch12}, modify this circuit
 by taking $\phi(x)$ as in eq. \ref{eq:non-linearity} and looking at the
 following system:
 \begin{equation}
-  \label{eq:modified-system}
+  \label{eq:system}
   \left\{
     \begin{aligned}
       x' &= a(y-\phi(x))\\
       y' &= x-y+z\\
-      z' &= -bz
+      z' &= -by
     \end{aligned}
   \right.
 \end{equation}
 
-As suggested in \cite{hirsch12}, we will take $\rho=\frac{1}{16},
-\sigma=-\frac{1}{6}$ for the parameters in eq.
-\ref{eq:non-linearity}.
+
 
 %%% Local Variables: 
 %%% mode: latex

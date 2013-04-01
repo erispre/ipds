@@ -1,0 +1,34 @@
+\section{Investigating the equilibria}
+
+First, we will locate the equilibria of this system.  Note that we
+will take the parameters $a, b \neq 0$ and $\rho,\sigma > 0$.  This
+will greatly simplify the solutions.
+
+Equating the right part of equation \ref{eq:system} with zero, we get
+from the $z'$ part, noting that $b \neq 0$, that $y = 0$.
+Furthermore, the second equation tells us then that $z = -x$.  And
+lastly, the first equation tells us to look for the roots of
+$\phi(x)$.  We will factor this into:
+\begin{equation}
+  \label{eq:phi-factor}
+  \phi(x) = x ( \rho x^2 - \sigma ) = 0,
+\end{equation}
+from which we deduce that $x = 0$ or $x = \pm
+\sqrt{\frac{\sigma}{\rho}}$.
+
+This leaves us with three equilibrium points for the system:
+\begin{align}
+  X_0 &= (x,y,z)_0 &= (0,0,0)\\
+  X_\pm &=(x,y,z)_\pm &= (\pm\sqrt{\frac{\sigma}{\rho}}, 0,
+  \mp\sqrt{\frac{\sigma}{\rho}})
+\end{align}
+
+\subsection{Classification}
+
+We will now linearize the system about the equilibria and classify
+these points on this.  For 
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "chua_circuit"
+%%% End: 

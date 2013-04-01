@@ -1,0 +1,19 @@
+\documentclass[twocolumn,10pt]{article}
+
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{graphicx}
+
+\title{On the Chua Circuit}
+\author{Rosa Kappert \and Eric Spreen \and Johanna Stegink}
+
+\begin{document}
+\maketitle
+
+\input{intro.tex} % Introduction
+
+
+% Bibliography (BibTeX)
+\bibliographystyle{abbrv}
+\bibliography{refs}
+
+\end{document}

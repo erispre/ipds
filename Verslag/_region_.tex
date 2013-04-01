@@ -1,0 +1,151 @@
+\message{ !name(chua_circuit.tex)}\documentclass[twocolumn,10pt]{article}
+
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{graphicx}
+
+\title{On the Chua Circuit}
+\author{Rosa Kappert \and Eric Spreen \and Johanna Stegink}
+
+\begin{document}
+
+\message{ !name(equilibria.tex) !offset(-11) }
+\section{Investigating the equilibria}
+
+First, we will locate the equilibria of this system.  Note that we
+will take the parameters $a, b, \rho,\sigma > 0$.  This is because the
+first two correspond to physical parameters that are positive and the
+other two are positive by assumption.
+
+Equating the right part of equation \ref{eq:system} with zero, we get
+from the $z'$ part, noting that $b \neq 0$, that $y = 0$.
+Furthermore, the second equation tells us then that $z = -x$.  And
+lastly, the first equation tells us to look for the roots of
+$\phi(x)$.  We will factor this into:
+\begin{equation}
+  \label{eq:phi-factor}
+  \phi(x) = x ( \rho x^2 - \sigma ) = 0,
+\end{equation}
+from which we deduce that $x = 0$ or $x = \pm
+\sqrt{\frac{\sigma}{\rho}}$.
+
+This leaves us with three equilibrium points for the system:
+\begin{gather}
+  X_0 = (x,y,z)_0 = (0,0,0)\\
+  X_\pm =(x,y,z)_\pm = (\pm\sqrt{\frac{\sigma}{\rho}}, 0,
+  \mp\sqrt{\frac{\sigma}{\rho}}),
+\end{gather}
+one equilibrium in the origin and one in the $xz$-plane, symmetric in
+the origin.  Note that the location of the equilibria $X_\pm$ is
+completely determined by the parameters in $\phi$, and that these fail
+to exist if $\rho$ and $sigma$ do not have the same sign.
+
+\subsection{Classification of the origin}
+
+We will now linearize the system about the equilibria and classify
+these points on this.  For $X_0$ (the origin), we have the following
+linearization:
+\begin{gather}
+  \label{eq:linear-origin}
+  X' = A_0 X, \\
+  A_0 :=
+  \begin{pmatrix}
+    -a \phi'(0) & a & 0\\
+    1 & -1 & 1\\
+    0 & -b & 0
+  \end{pmatrix}
+  =
+  \begin{pmatrix}
+    a \sigma & a & 0\\
+    1 & -1 & 1\\
+    0 & -b & 0
+  \end{pmatrix}.
+\end{gather}
+Now, to study the eigenvalues of $A_0$, we note that $tr(A_0) = a \sigma
+- 1$ and $det(A_0) = a b \sigma > 0$.  For any real $n \times n$ matrix,
+we know that the trace is equal to the sum and the
+determinant to the product of the eigenvalues, counting
+multiplicities.  For the eigenvalues of $A_0$ we have three cases:
+\begin{enumerate}
+\item All eigenvalues are zero
+\item All eigenvalues are real and distinct
+\item One eigenvalue is real and two are complex and non-real.
+\end{enumerate}
+
+Bare with us, because this will get confusing.
+
+\paragraph{Zero eigenvalues}
+This case is fundamentally impossible, since in this case, we would
+have $0 = det(A_0) = ab\sigma > 0$, which is a contradiction.
+Therefore, all eigenvalues are non-zero.
+
+\paragraph{Real and distinct eigenvalues}
+Let $\lambda_i \in \mathbb{R} (i=1,2,3)$ be the eigenvalues of $A_0$.
+Then we have $0 < ab\sigma = det(A_0) = \lambda_1\lambda_2\lambda_3$.
+If without generality we assume that $\lambda_1 < \lambda_2 <
+\lambda_3$, we can again distinguish two cases.  If $\lambda_1 < 0$,
+we must have $\lambda_2 < 0$ and $\lambda_3 > 0$.  This corresponds to
+a saddle with a stable plane.
+
+If $\lambda_1 > 0$, we automatically have $\lambda_i > 0 (i=1,2,3)$.
+This corresponds to a source.
+
+Now we investigate the influence of the parameters $a,b,\sigma$ on the
+eigenvalues.  If $0 < a\sigma \leq 1$, we see that:
+\begin{gather*}
+  0 \geq a\sigma - 1 = tr(A_0) = \sum_{i=1}^3 \lambda_i.
+\end{gather*}
+Therefore:
+\begin{gather*}
+  \lambda_3 \leq -(\lambda_1 + \lambda_2)
+\end{gather*}
+So, if $\lambda_1 > 0$, we get $0 < \lambda_3 \leq 0$, which can't be
+true.  Therefore we must have in this case (i.e. if there are only
+real eigenvalues and $0 < a\sigma \leq 1$) that $\lambda_1,\lambda_2 <
+0$ and $\lambda_3 \leq |\lambda_1 + \lambda_2|$.  So, then the origin
+is a saddle with a stable plane.
+
+Now to study the subcase of $a\sigma > 1$, we observe that if
+$\lambda_1,\lambda_2 < 0$, we get $\lambda_3 > - (\lambda_1 +
+\lambda_2) = |\lambda_1 + \lambda_2| > 0$.  And if
+$\lambda_1,\lambda_2>0$, we get $\lambda_3 > -(\lambda_1 +
+\lambda_2)$, which is perfectly possible, since we know that
+$\lambda_3 > 0$.  Therefore, on these criteria, both cases (source and
+saddle) can occur.
+
+\paragraph{One real, two non-real eigenvalues}
+Again let $\lambda_1\in\mathbb{R}, \lambda_2,\lambda_3\in\mathbb{C}$
+be the eigenvalues of $A_0$.  Then we immediately know that $\lambda_3
+= \bar{\lambda_2}$, the complex conjugate of $\lambda_2$.  From the
+trace and determinant we deduce:
+\begin{gather*}
+  0 < ab\sigma = \lambda_1 |\lambda_2|^2 \implies \lambda_1 > 0\\
+  a\sigma - 1 = \lambda_1 + \lambda_2 + \bar{\lambda_2} 
+  = \lambda_1 + 2 Re(\lambda_2).
+\end{gather*}
+So we see that the real eigenvalue must be strictly positive (since
+$|\lambda_2|^2 > 0$. Furthermore, if $0< a\sigma \leq 1$, the real part
+of $\lambda_2$ and $\lambda_3$ is strictly negative.
+
+When $a \sigma > 1$, the only restriction we can impose is that the
+real part of $\lambda_2$ and $\lambda_3$ is strictly greater than
+$-\frac{\lambda_1}{2}$.
+
+\paragraph{Type of equilibrium}
+
+From this we can deduce that as long as $a \leq \frac{1}{\sigma}$, the
+origin will be a saddle point, with a stable plane.  When $a$ becomes
+greater than $\frac{1}{\sigma}$, there is a possible bifurcation,
+changing the origin into a source.
+
+\subsection{Classification of $X_\pm$}
+
+
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "chua_circuit"
+%%% End: 
+
+\message{ !name(chua_circuit.tex) !offset(-132) }
+
+\end{document}

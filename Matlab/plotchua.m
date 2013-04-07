@@ -1,9 +1,10 @@
 % Parameters
-a = 10.91865;
+% a = 10.91865;
+a = 7;
 b = 14;
 s = 1/16;
 t = -1/6;
-tend=5000;
+tend=500;
 
 fprintf('Equilibria: origin, and +/- %e\n',sqrt(-t/s))
 

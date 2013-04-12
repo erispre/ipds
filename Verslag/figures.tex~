@@ -1,0 +1,15 @@
+\section{Numerical approximations}
+
+\begin{figure}[h]
+  \centering
+  \subfloat[$a = 5$]{%
+    \includegraphics{a5.png}%
+  }
+  \caption{The graphs of numerical approximations of the solution curve for $b = 14$, $\sigma = \frac{1}{6}$ and $\rho = \frac{1}{16}$.}
+  \label{fig:numapprox}
+\end{figure}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "chua_circuit"
+%%% End: 

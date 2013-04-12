@@ -1,0 +1,35 @@
+\section{Bifurcations}
+
+We already showed that the origin is strictly a saddle point. To see
+what types of bifurcations might occur in the system when a is varied,
+we ran a simulation with an initial point close to one of the
+equilibrium points away from the origin and had a vary from 4 to 14.
+
+The equilibrium point we started near acts as a spiral sink for low
+values of; $4 \leq a \leq 6$. When $6 \leq a \leq 6.64$, the solution
+orbit approaches a circular limit set around the equilibrium
+point. This limit set seems to disappear for $6.64 \leq a \leq 8.3$,
+but is probably just too small to see, for these values of a, the
+orbit approaches the equilibrium point, circles it and moves away to a
+larger limit set surrounding it, which implies that the equilibrium
+point is no longer a spiral sink, but rather a saddle point of some
+kind. The outer orbit limit is drawn to the origin, eventually
+splitting it into two orbit limits, one of which continues to move
+toward the origin as a increases. When $8.68 \leq a \leq 9.37$ the
+outer orbit limit is close enough to the origin to be affected by it
+and for $a \geq 8.8$ the orbit is pulled through the origin and around
+the equilibrium point on the other side.
+
+The circular limit set around the first equilibrium point is more
+clearly present around the second equilibrium point, and fluctuates in
+size as a increases from 9.37 to 10.7, steadily increasing its size
+from $a=10.1$ onwards.
+
+When a increases beyond 10.7, the orbit instantly moves away from its
+previous orbit and approaches a new limit set away from all 3
+equilibrium points.
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "chua_circuit"
+%%% End: 

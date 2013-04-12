@@ -3,6 +3,10 @@
 \usepackage{amsmath,amssymb,amsthm}
 \usepackage{graphicx}
 \usepackage{listings}
+\usepackage{caption}
+\usepackage{subfig}
+
+\graphicspath{{./figures/}}
 
 \title{On the Chua Circuit}
 \author{Rosa Kappert \and Eric Spreen \and Johanna Stegink}
@@ -12,6 +16,7 @@
 
 \input{intro.tex} % Introduction
 \input{equilibria.tex} % Localizing the equilibria
+\input{bifurcations.tex} % Bifurcations
 
 % Bibliography (BibTeX)
 \bibliographystyle{abbrv}
@@ -20,6 +25,8 @@
 \onecolumn
 \appendix
 \input{mathematica.tex} % Mathematica scripts
+\newpage
+\input{figures.tex} % Figures
 
 
 

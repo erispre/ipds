@@ -1,0 +1,43 @@
+\section{Mathematica script}
+\label{app:mathematica}
+
+We used the following script with Wolfram Mathematica 7.0 to determine
+which eigenvalues are possible for the linearized system.  This is the
+version used for the origin.  Note that it can simply be modified to
+determine the behaviour for the other equilibria.
+
+It works by computing the characteristic polynomial of the linearized
+system and making an assumption about the nature of its roots.  Then,
+by comparing the coefficients of the characteristic polynomial and the
+expanded factorization, it deduces a set of requirements on the
+parameters for the system to be consistent.  It then attempts to find
+a set of parameters for which certain restrictions on the eigenvalues
+hold.  If no such set exists, it returns an empty list.
+
+\begin{lstlisting}[language=Mathematica]
+Clear[a, b, n]
+m = {{a s, a, 0}, {1, -1, 1}, {0, -b, 0}};
+m // MatrixForm
+match = And @@ (Equal @@@ 
+    Transpose[{CoefficientList[Expand[k (l - x) (l - y) (l - z)], l], 
+      CoefficientList[CharacteristicPolynomial[m, l], l]}])
+FindInstance[
+ match && a > 0 && b > 0 && s > 0 && x > 0 && y > 0 && z > 0, {a, b, 
+  s, x, y, z, k}]
+
+match = And @@ (Equal @@@ 
+    Transpose[{CoefficientList[
+       Expand[k (l - (x + I y)) (l - (x - I y)) (l - z)], l], 
+      CoefficientList[CharacteristicPolynomial[m, l], l]}])
+FindInstance[
+ match && a > 0 && b > 0 && s > 0 && x < 0 && y >= 0 && z > 0, {a, b, 
+  s, x, y, z, k}]
+FindInstance[
+ match && a > 0 && b > 0 && s > 0 && x > 0 && y >= 0 && z > 0, {a, b, 
+  s, x, y, z, k}]
+\end{lstlisting}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "chua_circuit"
+%%% End: 

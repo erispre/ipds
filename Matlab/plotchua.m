@@ -1,10 +1,10 @@
 % Parameters
 % a = 10.91865;
-a = 7;
+a = 10;
 b = 14;
 s = 1/16;
 t = -1/6;
-tend=500;
+tend=5;
 
 fprintf('Equilibria: origin, and +/- %e\n',sqrt(-t/s))
 
@@ -12,9 +12,9 @@ g = @(x) s*x.^3 + t*x;
 f = @(t,Y) [a*(Y(2)-g(Y(1))); Y(1)-Y(2)+Y(3); -b*Y(2)];
 
 % Solve the DE
-Y0=[1.63,0,-1.63];
-[T,Y]=ode45(f,[0,tend],Y0);
-[T2,Y2]=ode45(f,[0,tend],-Y0);
+Y0=0.0001*[-1.76159, -0.200241, 1]
+[T,Y]=ode45(f,[0,-tend],Y0);
+[T2,Y2]=ode45(f,[0,tend],Y0);
 % Calculate the x-nullcline
 xmin = min(Y(:,1));
 xmax = max(Y(:,1));

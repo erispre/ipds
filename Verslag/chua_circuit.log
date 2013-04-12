@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.9.21)  2 APR 2013 00:09
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.9.21)  12 APR 2013 13:11
 entering extended mode
 **\input chua_circuit.tex
 (c:\Users\erispre\Documents\GitHub\ipds\Verslag\chua_circuit.tex
@@ -131,39 +131,65 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen112
 \Gin@req@width=\dimen113
 )
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.sty"
+\lst@mode=\count100
+\lst@gtempboxa=\box28
+\lst@token=\toks26
+\lst@length=\count101
+\lst@currlwidth=\dimen114
+\lst@column=\count102
+\lst@pos=\count103
+\lst@lostspace=\dimen115
+\lst@width=\dimen116
+\lst@newlines=\count104
+\lst@lineno=\count105
+\lst@maxwidth=\dimen117
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+\c@lstnumber=\count106
+\lst@skipnumbers=\count107
+\lst@framebox=\box29
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+File: listings.cfg 2007/02/22 1.4 listings configuration
+))
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
+
 (c:\Users\erispre\Documents\GitHub\ipds\Verslag\chua_circuit.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count100
-\scratchdimen=\dimen114
-\scratchbox=\box28
-\nofMPsegments=\count101
-\nofMParguments=\count102
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count103
-\MPscratchDim=\dimen115
-\MPnumerator=\count104
-\makeMPintoPDFobject=\count105
-\everyMPtoPDFconversion=\toks27
+\scratchcounter=\count108
+\scratchdimen=\dimen118
+\scratchbox=\box30
+\nofMPsegments=\count109
+\nofMParguments=\count110
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count111
+\MPscratchDim=\dimen119
+\MPnumerator=\count112
+\makeMPintoPDFobject=\count113
+\everyMPtoPDFconversion=\toks28
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 10.
+\c@lstlisting=\count114
+LaTeX Font Info:    Try loading font information for U+msa on input line 11.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 10.
+LaTeX Font Info:    Try loading font information for U+msb on input line 11.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
@@ -190,19 +216,51 @@ Underfull \vbox (badness 2582) has occurred while \output is active []
 a/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
- <c:/Users/erispre/Documents/GitHub/ipds/Verslag/chuacircuit.png>] [2])
-(c:\Users\erispre\Documents\GitHub\ipds\Verslag\chua_circuit.bbl) [3
+ <c:/Users/erispre/Documents/GitHub/ipds/Verslag/chuacircuit.png>] [2]
+Underfull \hbox (badness 1590) in paragraph at lines 197--203
+ \OT1/cmr/bx/n/10 Real eigen-val-ues[] \OT1/cmr/m/n/10 We first note that be-ca
+use
+ []
+
+[3]) (c:\Users\erispre\Documents\GitHub\ipds\Verslag\chua_circuit.bbl) [4
+
+]
+(c:\Users\erispre\Documents\GitHub\ipds\Verslag\mathematica.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 19.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 19.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 25.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
+File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 25.
+) [5
 
 ]
 (c:\Users\erispre\Documents\GitHub\ipds\Verslag\chua_circuit.aux) ) 
 Here is how much of TeX's memory you used:
- 2113 strings out of 494045
- 26551 string characters out of 3145963
- 85916 words of memory out of 3000000
- 5395 multiletter control sequences out of 15000+200000
+ 5405 strings out of 494045
+ 79299 string characters out of 3145963
+ 297752 words of memory out of 3000000
+ 8658 multiletter control sequences out of 15000+200000
  11849 words of font info for 46 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 27i,14n,24p,240b,221s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,14n,60p,252b,3146s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program 
 Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Fi
 les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program File
@@ -220,9 +278,9 @@ e1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
 lic/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/symbols/msbm10.pfb>
-Output written on chua_circuit.pdf (3 pages, 182842 bytes).
+Output written on chua_circuit.pdf (5 pages, 197003 bytes).
 PDF statistics:
- 78 PDF objects out of 1000 (max. 8388607)
+ 84 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

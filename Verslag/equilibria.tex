@@ -23,7 +23,7 @@ This leaves us with three equilibrium points for the system:
   X_\pm =(x,y,z)_\pm = (\pm\sqrt{\frac{\sigma}{\rho}}, 0,
   \mp\sqrt{\frac{\sigma}{\rho}}),
 \end{gather}
-one equilibrium in the origin and one in the $xz$-plane, symmetric in
+one equilibrium in the origin and two in the $xz$-plane, symmetric in
 the origin.  Note that the location of the equilibria $X_\pm$ is
 completely determined by the parameters in $\phi$, and that these fail
 to exist if $\rho$ and $sigma$ do not have the same sign.
@@ -31,8 +31,8 @@ to exist if $\rho$ and $sigma$ do not have the same sign.
 \subsection{Classification of the origin}
 
 We will now linearize the system about the equilibria and classify
-these points on this.  For $X_0$ (the origin), we have the following
-linearization:
+these points based on this.  For $X_0$ (the origin), we have the
+following linearization:
 \begin{gather}
   \label{eq:linear-origin}
   X' = A_0 X, \\
@@ -61,7 +61,13 @@ multiplicities.  For the eigenvalues of $A_0$ we have three cases:
   are non-zero.
 \end{enumerate}
 
-Bare with us, because this will get confusing.
+We can distinguish these cases by studying the characteristic
+polynomial, which is given by:
+\begin{equation}
+  \label{eq:origin-cp}
+  p_{A_0}(\lambda) = -\lambda^3+(a\sigma-1)\lambda
+  +(a\sigma + a -b) \lambda + a b \sigma.
+\end{equation}
 
 \paragraph{Zero eigenvalues}
 This case is fundamentally impossible, since in this case, we would
@@ -69,13 +75,25 @@ have $0 = det(A_0) = ab\sigma > 0$, which is a contradiction.
 Therefore, all eigenvalues are non-zero.
 
 \paragraph{Real and non-zero eigenvalues}
-Let $\lambda_i \in \mathbb{R} (i=1,2,3)$ be the eigenvalues of $A_0$.
-Then we have $ab\sigma = det(A_0) = \lambda_1\lambda_2\lambda_3 > 0$.
-If without generality we assume that $\lambda_1 \leq \lambda_2 \leq
-\lambda_3$, we can again distinguish two cases.  If $\lambda_1 < 0$,
-we must have $\lambda_2 < 0$ and $\lambda_3 > 0$.  This corresponds to
-a saddle with a stable plane, spanned by the (generalized) eigenvectors
-corresponding to $\lambda_1$ and $\lambda_2$.
+We will study this case with the help of the computer algebra program
+Wolfram Mathematica.  Using the script in appendix
+\ref{app:mathematica}, we can compare the coefficients of the
+characteristic polynomial with a factorization that would arize when
+all roots are real and non-zero.  We hereby note that either all
+eigenvalues must be positive, or two must be negative and one
+positive, since the determinant is positive.  The automated algebraic
+analysis shows that the former case is impossible, so in this case we
+must have two negative eigenvalues and one positive.
+
+We can prove this more rigorously for the subcase $0 < a\sigma \leq
+1$. Let $\lambda_i \in \mathbb{R} (i=1,2,3)$ be the eigenvalues of
+$A_0$.  Then we have $ab\sigma = det(A_0) =
+\lambda_1\lambda_2\lambda_3 > 0$.  If without generality we assume
+that $\lambda_1 \leq \lambda_2 \leq \lambda_3$, we can again
+distinguish two cases.  If $\lambda_1 < 0$, we must have $\lambda_2 <
+0$ and $\lambda_3 > 0$.  This corresponds to a saddle with a stable
+plane, spanned by the (generalized) eigenvectors corresponding to
+$\lambda_1$ and $\lambda_2$.
 
 If $\lambda_1 > 0$, we automatically have $\lambda_i > 0 (i=1,2,3)$.
 This corresponds to a source.
@@ -103,8 +121,15 @@ $\lambda_1,\lambda_2>0$, we get $\lambda_3 > -(\lambda_1 +
 $\lambda_3 > 0$.  Therefore, on these criteria, both cases (source and
 saddle) can occur.
 
+Note that if we include the third requirement $-(\lambda_1\lambda_2 +
+\lambda_2 \lambda_3 + \lambda_1\lambda_3 = a-b+a\sigma$, which arises
+from equating $p_{A_0}(\lambda)$ with its factorization, we can proof
+it also for this subcase.  However, we feel that such a proof is mere
+very precise bookkeeping, which can best be done by a computer algebra
+system.
+
 \paragraph{One real, two non-real eigenvalues}
-Again let $\lambda_1\in\mathbb{R}, \lambda_2,\lambda_3\in\mathbb{C}$
+Now, let $\lambda_1\in\mathbb{R}, \lambda_2,\lambda_3\in\mathbb{C}$
 be the eigenvalues of $A_0$.  Then we immediately know that $\lambda_3
 = \bar{\lambda_2}$, the complex conjugate of $\lambda_2$.  From the
 trace and determinant we deduce:
@@ -117,19 +142,95 @@ So we see that the real eigenvalue must be strictly positive (since
 $|\lambda_2|^2 > 0$. Furthermore, if $0< a\sigma \leq 1$, the real part
 of $\lambda_2$ and $\lambda_3$ is strictly negative.
 
-When $a \sigma > 1$, the only restriction we can impose is that the
-real part of $\lambda_2$ and $\lambda_3$ is strictly greater than
-$-\frac{\lambda_1}{2}$.
+When $a\sigma > 1$, we can again factor the characteristic polynomial:
+\begin{gather*}
+  \label{eq:origin-cp-factor}
+  p_{A_0}(\lambda) = k(\lambda - (\mu + \nu i))(\lambda - (\mu - \nu
+  i))(\lambda - z) \\
+  \quad (k,\mu,\nu,z \in \mathbb{R}).
+\end{gather*}
+Again we can let Mathematica do the algebraic work, from which we get
+$Re(\lambda_1) = Re(\lambda_2) < 0$ for all (positive) values of the
+parameters.
 
 \paragraph{Type of equilibrium}
 
-From this we can deduce that as long as $a \leq \frac{1}{\sigma}$, the
-origin will be a saddle point, with a stable plane.  When $a$ becomes
-greater than $\frac{1}{\sigma}$, there is a possible bifurcation,
-changing the origin into a source.
+So, we can deduce that in every case we will always have two
+eigenvalues with negative real part and one real positive eigenvalue.
+The question now arises whether the eigenvalues are real, or two are
+non-real.  We can determine this by looking at the cubic discriminant
+of the characteristic polynomial.  The algebraic expression for this
+is too large to include in this report, but we can tell you that it
+is a continuous function of the parameters.  We can therefore fix some
+parameter values and then check the behaviour of the eigenvalues near
+these points.
+
+With this in mind, we will now fix $b = 14, \rho = \frac{1}{16}$ and
+$\sigma = \frac{1}{6}$.  We can now determine the roots of the
+discriminant with respect to $a$.  A numerical calculation shows that
+two roots are real and negative and the other two are non-real.  Now,
+we can calculate the discriminant for one positive value of $a$,
+e.g. $a = 1$.  This gives a negative value of the discriminant, so we
+can conclude that for these parameters and all positive values of $a$,
+we get a negative discriminant, which corresponds to two non-real and
+one real eigenvalue.
 
 \subsection{Classification of $X_\pm$}
 
+We follow the same road as with the origin.  The linearized system is:
+\begin{gather}
+  \label{eq:linear_pm}
+  Y' = A_\pm Y\\
+  A_\pm :=
+  \begin{pmatrix}
+    -2 a \sigma & a & 0\\
+    1 & -1 & 1\\
+    0 & -b & 0
+  \end{pmatrix}.
+\end{gather}
+We now have $det(A_\pm) = -2a \sigma b < 0$ and $tr(A_\pm) = -(2a\sigma +
+1) < 0$ and the same three possibilities as above.  Again, we
+immediately note that an eigenvalue zero is not possible.
+
+\paragraph{Real eigenvalues}
+
+We first note that because $-2ab\sigma < 0$, we must have either one
+or three negative eigenvalues.  A numerical search shows that there
+are instances of the parameters available for each of these cases.  We
+therefore conclude that both cases are possible: a one-dimensional
+stable manifold with a two-dimensional unstable manifold (saddle) and
+a three-dimensional stable manifold (a sink).
+
+\paragraph{Two non-real, one real eigenvalues}
+
+This case turns out to be troubling.  It is possible to find values of
+the parameters such that the real part of the non-real eigenvalues is
+zero.  This indicates that for these parameter values this method of
+classification is undetermined.
+
+We can however conclude that the real eigenvalue is always negative
+(because of the negative determinant).  But apart from that, the real
+part of the non-real eigenvalues can be negative, positive and zero.
+
+\paragraph{Type of eigenvalues}
+
+We can of course again use the discriminant of the characteristic
+polynomial to determine whether the eigenvalues will be real or
+non-real.  Again we fix the parameters as in the case of the origin
+and using the same methods we find a negative discriminant for all
+positive values of $a$, in a neighbourhood of $b = 14, \sigma =
+\frac{1}{6}$ and $\rho = \frac{1}{16}$.
+
+Therefore, in this neighbourhood in the parameter space, we have one
+real and two non-real eigenvalues, which gives the troubling behaviour
+of above.  I.e. for some parameter values, there may not exist a
+conjugation between the original and the linearized system.  One
+example is $a = \frac{3}{2}(-1 + \sqrt{29})$.  It is however to be
+noted that the eigenvalues depend continuously on the coefficients in
+the characteristic polynomial, which depend continously on the
+parameters.  Therefore all bifurcations with respect to the real part
+of the non-real eigenvalues of the linearized system occur at the
+points in the parameter space for which the real part is equal to zero.
 
 
 %%% Local Variables: 

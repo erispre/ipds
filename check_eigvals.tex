@@ -1,0 +1,37 @@
+%% AMS-LaTeX Created by Wolfram Mathematica 7.0 for Students - Personal Use Only : www.wolfram.com
+
+\documentclass{article}
+\usepackage{amsmath, amssymb, graphics}
+
+\newcommand{\mathsym}[1]{{}}
+\newcommand{\unicode}{{}}
+
+\begin{document}
+
+\noindent\(\pmb{\text{Clear}[a,b,n]}\\
+\pmb{m=\{\{-2a n,a,0\},\{1,-1,1\},\{0,-b,0\}\};}\\
+\pmb{m\text{//}\text{MatrixForm}}\\
+\pmb{\text{match}=}\\
+\pmb{\text{And}\text{@@}}\\
+\pmb{(\text{Equal}\text{@@@}}\\
+\pmb{\text{Transpose}[\{\text{CoefficientList}[\text{Expand}[k(l-x) (l-y) (l-z)],l],}\\
+\pmb{\text{CoefficientList}[\text{CharacteristicPolynomial}[m,l],l]\}])}\\
+\pmb{\text{FindInstance}[\text{match}\&\&a>0\&\&b>0\&\&n>0\&\&x<0\&\&y<0\&\&z<0,}\\
+\pmb{\{a,b,n,x,y,z,k\}]}\)
+
+\noindent\(\pmb{\text{match}=}\\
+\pmb{\text{And}\text{@@}}\\
+\pmb{(\text{Equal}\text{@@@}}\\
+\pmb{\text{Transpose}[}\\
+\pmb{\{\text{CoefficientList}[\text{Expand}[k(l-(x+I y)) (l-(x-I y)) (l-z)],l],}\\
+\pmb{\text{CoefficientList}[\text{CharacteristicPolynomial}[m,l],l]\}])}\\
+\pmb{\text{FindInstance}[\text{match}\&\&a>0\&\&b>0\&\&n>0\&\&x<0\&\&y\geq 0\&\&z<0,}\\
+\pmb{\{a,b,n,x,y,z,k\}]}\\
+\pmb{\text{FindInstance}[\text{match}\&\&a>0\&\&b>0\&\&n>0\&\&x>0\&\&y\geq 0\&\&z<0,}\\
+\pmb{\{a,b,n,x,y,z,k\}]}\\
+\pmb{\text{FindInstance}[\text{match}\&\&a>0\&\&b==14\&\&n\text{==}1/6\&\&x\text{==}0\&\&y\geq 0\&\&z<0,}\\
+\pmb{\{a,b,n,x,y,z,k\}]}\\
+\pmb{\text{FindInstance}[\text{match}\&\&a>0\&\&b>0\&\&n>0\&\&x>0\&\&y\geq 0\&\&z>0,}\\
+\pmb{\{a,b,n,x,y,z,k\}]}\)
+
+\end{document}
